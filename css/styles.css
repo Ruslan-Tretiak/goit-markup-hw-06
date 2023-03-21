@@ -677,6 +677,7 @@ body {
     color: #757575;
     align-items: center;
     margin-bottom: 24px;
+    
 }
 .modal-form-check-desc::before {
     display: flex;
@@ -688,10 +689,14 @@ body {
     border: 1.25px solid rgba(46, 47, 66, 1);
     background-repeat: no-repeat;
     margin-right: 8px;
+    position: relative;
+   
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
     background-color: var(--hover-focus-btn);
     border-color:transparent;
+    /* background-image: url(/images/mark.svg);
+    background-size: cover; */
     
 }
 .modal-form-check:focus+.modal-form-check-desc::before {
@@ -711,9 +716,13 @@ body {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
     background-color: var(--hover-focus-btn);
+    /* opacity:100; */
 }
 .modal-form-policy-icon {
     position: absolute;
+    background-size: cover;
+    transform: translate(20%);
+    /* opacity: -100; */
 }
 /* =========================/MODAL-FORM=========================*/
 
