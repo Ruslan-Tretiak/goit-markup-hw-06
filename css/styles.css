@@ -617,6 +617,7 @@ body {
     padding-left: 42px;
     border-radius: 4px;
     transition:border-color var(--transition-duration);
+    margin-bottom: 8px;
 }
 .modal-form-input-icon:focus {
     background-color: var(--link-color);
@@ -630,9 +631,7 @@ body {
     margin-bottom: 4px;
     color: #8E8F99;
 }
-.modal-block-fild {
-    margin-bottom: 8px;
-}
+
 .modal-form-input-icon {
     position: absolute;
     top: 50%;
@@ -659,6 +658,7 @@ body {
     border-radius: 4px;
     padding: 8px 16px;
     font-size: 12px;
+    display: block;
     
 }
 .model-form-massage::placeholder {
@@ -678,6 +678,7 @@ body {
     color: #757575;
     align-items: center;
     margin-bottom: 24px;
+    margin-top: 16px;
     
 }
 .modal-form-check-desc::before {
